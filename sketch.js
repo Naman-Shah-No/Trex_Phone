@@ -48,7 +48,7 @@ function setup(){
   createCanvas(windowWidth,windowHeight);
   edges = createEdgeSprites();
   
-  trex = createSprite(100,150,30,50);
+  trex = createSprite(50,180,20,50);
   trex.addAnimation("running",trex_running);
   trex.addAnimation("trex_collided",trex_collided);
   trex.scale = 0.5;
